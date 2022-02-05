@@ -1,0 +1,144 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1in 1in 1in 1in;
+    grid-template-rows: 1in 1in 1in 1in 1in;
+    padding: 20%;
+    row-gap: 1px;
+    column-gap: 1px;
+    text-align: center;
+}
+
+.grid-cell-1{
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+
+.grid-cell-2{    
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 10%;
+}
+
+.grid-cell-5{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-6{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-7{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-8{
+    background-color: lightgreen;
+    color: forestgreen;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-9{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-10{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-11{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-12{
+    background-color: lightgreen;
+    color: forestgreen;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-13{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-14{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-15{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-16{
+    background-color: lightgreen;
+    color: forestgreen;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-17{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-18{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-19{    
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
+.grid-cell-20{
+    background-color: lightgreen;
+    color: forestgreen;
+    text-align: center;
+    font-size: 25pt;
+    padding: 30%;
+}
