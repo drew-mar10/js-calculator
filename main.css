@@ -2,7 +2,7 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid-container{
+.calculator{
     display: grid;
     grid-template-columns: 1in 1in 1in 1in;
     grid-template-rows: 1in 1in 1in 1in 1in;
