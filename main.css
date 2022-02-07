@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 
-.grid-cell-1{
+.clear{
     background-color: limegreen;
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@ body{
     padding: 50%;
 }
 
-.grid-cell-2{    
+.display{    
     grid-column-start: 2;
     grid-column-end: 5;
     background-color: limegreen;
@@ -30,7 +30,7 @@ body{
     padding: 16.5%;
 }
 
-.grid-cell-5{    
+.button{    
     background-color: limegreen;
     color: white;
     text-align: center;
@@ -128,14 +128,14 @@ body{
     font-size: 25pt;
     padding: 50%;
 }
-.grid-cell-19{    
+.equals{    
     background-color: limegreen;
     color: white;
     text-align: center;
     font-size: 25pt;
     padding: 50%;
 }
-.grid-cell-20{
+.+{
     background-color: lightgreen;
     color: forestgreen;
     text-align: center;
