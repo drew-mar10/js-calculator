@@ -3,34 +3,98 @@ console.log('equals')
 
 //const keys = ['grid-cell-1', 'grid-cell-2', 'grid-cell-3', 'grid-cell-4', 'grid-cell-5', 'grid-cell-6', 'grid-cell-7', 'grid-cell-8', 'grid-cell-9', 'grid-cell-10', 'grid-cell-11', 'grid-cell-12', 'grid-cell-13', 'grid-cell-14', 'grid-cell-15', 'grid-cell-16', 'grid-cell-17', 'grid-cell-18', 'grid-cell-19', 'grid-cell-20']
 
-let display = document.getElementById('display');
-let clear = document.getElementById('clear');
+let cleared = document.getElementById('clear');
 let equals = document.getElementById('equals');
+let buttons = document.querySelectorAll("calcButs");
+let workString = '';
 
-const calcButtons = document.querySelectorAll(".button");
-console.log("buttons array", calcButtons);
-
-const dataButtons = document.querySelectorAll(".data button");
-console.log("data buttons array", dataButtons);
-
-const funcButtons = document.querySelectorAll(".func button");
-console.log("func buttons array", funcButtons);
-
-const equalsButton = document.querySelector('[equals]');
-console.log("equals", equals);
-
-const clearButton = document.querySelector('[clear]');
-console.log("clear", clear);
+//eval on equals button
+//katy perry&cashcash
 
 
+//data buttons
 
-let clicked = document.querySelector('.button')
-clicked.addEventListener('click', function () {
-    console.log(clicked)
-})
+let display = document.getElementById('disPlay');
+    display.innerHTML= ''
+    console.log(display)
 
-for (let button of calcButtons) {
-    button.addEventListener('click', (clicked) => {
-        console.log(clicked);
-        });
-    };
+zero.addEventListener('click', function() {
+    console.log(zero.innerHTML)
+    workString += zero.innerHTML
+    display.innerHTML = workString
+});
+
+one.addEventListener('click', function() {
+    console.log(one.innerHTML)
+    workString += one.innerHTML
+    display.innerHTML = workString
+});
+
+two.addEventListener('click', function() {
+    console.log(two.innerHTML)
+    workString += two.innerHTML
+    display.innerHTML = workString
+});
+
+three.addEventListener('click', function() {
+    console.log(three.innerHTML)
+    workString += three.innerHTML
+    display.innerHTML = workString
+});
+
+four.addEventListener('click', function() {
+    console.log(four.innerHTML)
+    workString += four.innerHTML
+    display.innerHTML = workString
+});
+
+five.addEventListener('click', function() {
+    console.log(five.innerHTML)
+    workString += five.innerHTML
+    display.innerHTML = workString
+});
+
+six.addEventListener('click', function() {
+    console.log(six.innerHTML)
+    workString += six.innerHTML
+    display.innerHTML = workString
+});
+
+seven.addEventListener('click', function() {
+    console.log(seven.innerHTML)
+    workString += seven.innerHTML
+    display.innerHTML = workString
+});
+
+eight.addEventListener('click', function() {
+    console.log(eight.innerHTML)
+    workString += eight.innerHTML
+    display.innerHTML = workString
+});
+
+nine.addEventListener('click', function() {
+    console.log(nine.innerHTML)
+    workString += nine.innerHTML
+    display.innerHTML = workString
+});
+
+//func buttons
+
+clear.addEventListener('click', function() {
+    (display.innerHTML = '');
+    console.log(display.innerHTML)
+});
+
+
+
+
+// let clicked = document.querySelector('calcButtons')
+// clicked.addEventListener('click', function () {
+//     console.log('clicked')
+// })
+
+// for (let button of calcButtons) {
+//     button.addEventListener('click', (clicked) => {
+//         console.log(clicked);
+//         });
+//     };

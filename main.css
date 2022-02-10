@@ -20,7 +20,7 @@ body{
     padding: 50%;
 }
 
-.display{    
+#disPlay{    
     grid-column-start: 2;
     grid-column-end: 5;
     background-color: limegreen;
