@@ -81,13 +81,31 @@ nine.addEventListener('click', function() {
 //func buttons
 
 clear.addEventListener('click', function() {
-    (display.innerHTML = '');
-    console.log(display.innerHTML)
+    console.log(clear.innerHTML)
+    workString = ''
+    display.innerHTML = workString 
 });
 
+equals.addEventListener('click', function() {
+    display.innerHTML = eval(display.innerHTML)
+    console.log(eval(display.innerHTML))
+});
 
+add.addEventListener('click', function() {
+    (display.innerHTML = "+")
+});
 
+minus.addEventListener('click', function() {
+    console.log(minus.innerHTML)
+    workString += minus.innerHTML
+    display.innerHTML = workString
+})
 
+multiply.addEventListener('click', function() {
+    console.log(multiply.innerHTML)
+    workString += multiply.innerHTML
+    display.innerHTML = workString
+})
 // let clicked = document.querySelector('calcButtons')
 // clicked.addEventListener('click', function () {
 //     console.log('clicked')
