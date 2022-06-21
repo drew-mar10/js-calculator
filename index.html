@@ -11,26 +11,59 @@
 </head>
 
 <body>
-    <div class id="calculator">
-        <div class ="button" id="clear">C</div>
-        <div id ="disPlay"></div>
-        <div class ="button" id="seven">7</div>
-        <div class ="button" id="eight">8</div>
-        <div class ="button" id="nine">9</div>
-        <div class ="button" id="divide">/</div>
-        <div class ="button" id="four">4</div>
-        <div class ="button" id="five">5</div>
-        <div class ="button" id="six">6</div>
-        <div class ="button" id="multiply">X</div>
-        <div class ="button" id="one">1</div>
-        <div class ="button" id="two">2</div>
-        <div class ="button" id="three">3</div>
-        <div class ="button" id="minus">-</div>
-        <div class ="button" id="zero">0</div>
-        <div class ="button" id="decimal">.</div>
-        <div class ="button" id="eval">=</div>
-        <div class ="button" id="add">+</div>
+
+    <div class="container">
+    <br>
+    <table>
+        <tr>
+            <td colspan="3"><input type='text' id='result' class='screen' style='text-align: right;'></td>
+            <td>
+                <input type='button' value='C' onClick='clearScreen()' class='clear'/>
+            </td>
+        </tr>
+    </table>
+
+    <div class="keys">
+        <input type="button" value="7" class="button" onClick="display('7')"></input>
+        <input type="button" value="8" class="button" onClick="display('8')"></input>
+        <input type="button" value="9" class="button" onClick="display('9')"></input>
+        <input type="button" value="/" class="operator" onClick="display('/')"></input>
+        <input type="button" value="4" class="button" onClick="display('4')"></input>
+        <input type="button" value="5" class="button" onClick="display('5')"></input>
+        <input type="button" value="6" class="button" onClick="display('6')"></input>
+        <input type="button" value="*" class="operator" onClick="display('*')"></input>
+        <input type="button" value="1" class="button" onClick="display('1')"></input>
+        <input type="button" value="2" class="button" onClick="display('2')"></input>
+        <input type="button" value="3" class="button" onClick="display('3')"></input>
+        <input type="button" value="-" class="operator" onClick="display('-')"></input>
+        <input type="button" value="0" class="button" onClick="display('0')"></input>
+        <input type="button" value="." class="button" onClick="display('.')"></input>
+        <input type="button" value="=" class="button equal-sign" onClick="solve()"></input>
+        <input type="button" value="+" class="operator" onClick="display('+')"></input>
     </div>
+    
+    </div>
+
+    <!-- <div class id="calculator"> -->
+        <!-- <div class ="button" id="clear">C</div> -->
+        <!-- <div id ="disPlay"></div> -->
+        <!-- <div class ="button" id="seven">7</div> -->
+        <!-- <div class ="button" id="eight">8</div> -->
+        <!-- <div class ="button" id="nine">9</div> -->
+        <!-- <div class ="button" id="divide">/</div> -->
+        <!-- <div class ="button" id="four">4</div> -->
+        <!-- <div class ="button" id="five">5</div> -->
+        <!-- <div class ="button" id="six">6</div> -->
+        <!-- <div class ="button" id="multiply">X</div> -->
+        <!-- <div class ="button" id="one">1</div> -->
+        <!-- <div class ="button" id="two">2</div> -->
+        <!-- <div class ="button" id="three">3</div> -->
+        <!-- <div class ="button" id="minus">-</div> -->
+        <!-- <div class ="button" id="zero">0</div> -->
+        <!-- <div class ="button" id="decimal">.</div> -->
+        <!-- <div class ="button" id="eval">=</div> -->
+        <!-- <div class ="button" id="add">+</div> -->
+    <!-- </div> -->
 
 </body>
 </html>
