@@ -1,6 +1,6 @@
 .container {
     border: 1px solid #cccccc;
-    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px 5px rgba(0,0.5,0,0.75);
     border-radius: 20px;
     position: absolute;
     top: 55%;
@@ -9,6 +9,7 @@
     width: 450px;
     height: 400px;
     padding: 2.5%;
+    /* background-image: linear-gradient(130deg, red,orange,yellow,green,blue,indigo,violet); */
 }
 
 .keys {
@@ -22,9 +23,10 @@
 .button {
     height: 60px;
     padding: 5px;
+    /* background-image: linear-gradient(130deg, red,orange,yellow,green,blue,indigo,violet); */
     background-color: #fff;
     border-radius: 3px;
-    border: 1px solid #c4c4c4;
+    border: 1.5px solid #c4c4c4;
     background-color: transparent;
     font-size: 2rem;
     color: #333;
@@ -34,21 +36,26 @@
 }
 
 .button:hover {
-    background-color: #eaeaea;
+    background-color: #d8e2dc;
 }
 
 .operator {
-    color: #fff;
-    background-color: #eebb24;
+    color: black;
+    background-color: #fee085;
+    font-size: 2rem;
+    border-radius: 3px;
+    border: 1.5px solid #c4c4c4;
 }
 
 .clear {
-    background-color: #f0595f;
+    background-color: #fb4d46;
     border-color: #b0353a;
     color: #fff;
     width: 80px;
-    height: 40px;
+    height: 45px;
     margin-left: 25%;
+    border-radius: 3px;
+    margin-bottom: 5px;
 }
 
 .clear:hover {
@@ -56,28 +63,30 @@
 }
 
 .equal-sign {
-    background-color: #25a8e0;
-    border-color: #25a8e0;
+    background-color: #469d89;
+    border-color: #14746f;
     color: #fff;
 }
 
 .equal-sign:hover {
-    background-color: #4e9ed4;
+    background-color: #14746f;
 }
 
 .screen{
-    background-color:rgb(171, 219, 231);
+    /* background-color:rgb(171, 219, 231); */
+    background-color: #e9ecef;
     justify-content: left;
     color: black;
     font-size: medium;
-    width: 50%;
-    height: 40%;
+    width: 55%;
+    /* height: 40%; */
     cursor: default;
     padding: 10px; 
     padding-left: 40%;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 
